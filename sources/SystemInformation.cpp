@@ -3,7 +3,7 @@
 //
 
 #include <sstream>
-#include "SystemInformation.h"
+#include "../includes/SystemInformation.h"
 
 std::string SystemInformationModel::getTimeAsString() const
 {

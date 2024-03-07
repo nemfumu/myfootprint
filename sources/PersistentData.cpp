@@ -9,14 +9,14 @@
 ////////////////////////////////////////////////////////////////////////////////
 //============================================================================//
 
-#include "PersistentData.h"
+#include "../includes/PersistentData.h"
 
 #include <sstream>
 #include <iostream>
 #include <cassert>
 
-#include "Common.h"
-#include "ServiceLogger.h"
+#include "../includes/Common.h"
+#include "../includes/ServiceLogger.h"
 
 /**************************************************************
  * Class PersistentScreenBrightness                           *

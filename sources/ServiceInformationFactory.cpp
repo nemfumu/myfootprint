@@ -2,7 +2,7 @@
 // Created by admin on 05/02/2024.
 //
 
-#include "ServiceInformationFactory.h"
+#include "../includes/ServiceInformationFactory.h"
 
 SystemInformationModel* ServiceInformationFactoryHelper::create(kpi::Code kpiCode)
 {

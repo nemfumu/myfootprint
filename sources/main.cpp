@@ -4,8 +4,8 @@
 #include <cstdio>
 #include <iostream>
 
-#include "FootPrintService.h"
-#include "Common.h"
+#include "../includes/FootPrintService.h"
+#include "../includes/Common.h"
 
 #pragma comment(lib, "advapi32.lib")
 

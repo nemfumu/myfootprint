@@ -5,7 +5,7 @@
 #include <processenv.h>
 #include <libloaderapi.h>
 #include <iostream>
-#include "ServiceConfig.h"
+#include "../includes/ServiceConfig.h"
 
 #define DEFAULT_PATH "D:\\Ecogestes\\FootPrintAgent\\cmake-build-debug"
 #define DEFAULT_NAME "FootPrintAgent"

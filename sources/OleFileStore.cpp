@@ -10,16 +10,16 @@
 ////////////////////////////////////////////////////////////////////////////////
 //============================================================================*/
 
-#include "OleFileManager.h"
-#include "OleFileStore.h"
+#include "../includes/OleFileManager.h"
+#include "../includes/OleFileStore.h"
 
 #include <string>
 #include <iostream>
 #include <sstream>
-#include "Common.h"
+#include "../includes/Common.h"
 
-#include "ServiceInformationFactory.h"
-#include "ServiceLogger.h"
+#include "../includes/ServiceInformationFactory.h"
+#include "../includes/ServiceLogger.h"
 
 /*============================================================================*
  * STRUCTURE   :                    OleFileStore                              *

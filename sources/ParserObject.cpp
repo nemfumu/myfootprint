@@ -9,12 +9,12 @@
 ////////////////////////////////////////////////////////////////////////////////
 //============================================================================//
 
-#include "ParserObject.h"
+#include "../includes/ParserObject.h"
 
 #include <algorithm>
 #include <cstring>
 
-#include "Common.h"
+#include "../includes/Common.h"
 
 // Constructor
 IStringParser::IStringParser(char* argData, int argSize, const char fieldSeparator)
