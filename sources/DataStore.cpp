@@ -23,9 +23,9 @@
 #include<sstream>
 //#include "FileCtrl.hpp"
 
-#include "Common.h"
-#include "ParserObject.h"
-#include "DataStore.h"
+#include "../includes/Common.h"
+#include "../includes/ParserObject.h"
+#include "../includes/DataStore.h"
 
 using namespace std;
 

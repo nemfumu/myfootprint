@@ -2,9 +2,9 @@
 // Created by admin on 07/02/2024.
 //
 
-#include "TaskManager.h"
-#include "SystemInformation.h"
-#include "ServiceLogger.h"
+#include "../includes/TaskManager.h"
+#include "../includes/SystemInformation.h"
+#include "../includes/ServiceLogger.h"
 
 #include <cstdlib>
 

@@ -1,7 +1,7 @@
 //---------------------------------------------------------------------------
 //  Mutex, semaphores, event et thread safe.
 //---------------------------------------------------------------------------
-#include "Resources.h"
+#include "../includes/Resources.h"
 
 Semaphore::Semaphore(unsigned int initialCount, int maxCount)
 : IResource()

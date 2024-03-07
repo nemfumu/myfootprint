@@ -2,12 +2,12 @@
 // Created by admin on 08/02/2024.
 //
 
-#include "PersistanceManager.h"
-#include "Message.h"
-#include "AppQueue.h"
-#include "ServiceLogger.h"
-#include "OleFileStore.h"
-#include "Common.h"
+#include "../includes/PersistanceManager.h"
+#include "../includes/Message.h"
+#include "../includes/AppQueue.h"
+#include "../includes/ServiceLogger.h"
+#include "../includes/OleFileStore.h"
+#include "../includes/Common.h"
 
 PersistanceManager::PersistanceManager()
 : m_dataStore(nullptr)
