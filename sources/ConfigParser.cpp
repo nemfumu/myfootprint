@@ -2,7 +2,7 @@
 // Created by admin on 13/02/2024.
 //
 
-#include "ConfigParser.h"
+#include "../includes/ConfigParser.h"
 
 #include <algorithm>
 #include <cctype>

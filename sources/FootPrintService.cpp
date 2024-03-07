@@ -2,7 +2,7 @@
 // Created by admin on 26/01/2024.
 //
 
-#include "FootPrintService.h"
+#include "../includes/FootPrintService.h"
 
 #include <ws2tcpip.h>
 #include <iostream>
@@ -13,13 +13,13 @@
 #include <cstring>
 #include "Shlwapi.h"
 
-#include "Common.h"
-#include "ServiceTimer.h"
-#include "ServiceConfig.h"
-#include "ConfigParser.h"
-#include "ServiceLogger.h"
-#include "SystemInformation.h"
-#include "FootPrintException.h"
+#include "../includes/Common.h"
+#include "../includes/ServiceTimer.h"
+#include "../includes/ServiceConfig.h"
+#include "../includes/ConfigParser.h"
+#include "../includes/ServiceLogger.h"
+#include "../includes/SystemInformation.h"
+#include "../includes/FootPrintException.h"
 
 // Need to link with Ws2_32.lib
 #pragma comment (lib, "Ws2_32.lib")

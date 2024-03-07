@@ -45,11 +45,11 @@
 #include <cstring>
 #include <iostream>
 
-#include "OleFileManager.h"
-#include "ServiceLogger.h"
-#include "Common.h"
-#include "ResourceLock.h"
-#include "FootPrintException.h"
+#include "../includes/OleFileManager.h"
+#include "../includes/ServiceLogger.h"
+#include "../includes/Common.h"
+#include "../includes/ResourceLock.h"
+#include "../includes/FootPrintException.h"
 
 #pragma warn -8004
 

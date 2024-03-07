@@ -3,32 +3,36 @@ project(FootPrintAgent)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(FootPrintAgent main.cpp
-        AppQueue.cpp
-        Common.cpp
-        DataStore.cpp
-        EcogesteKpi.cpp
-        FootPrintService.cpp
-        Message.cpp
-        MessageData.cpp
-        OleFileManager.cpp
-        OleFileStore.cpp
-        ParserObject.cpp
-        PersistanceManager.cpp
-        PersistentData.cpp
-        ResourceLock.cpp
-        Resources.cpp
-        ServiceConfig.cpp
-        ServiceInformationFactory.cpp
-        ServiceLogger.cpp
-        ServiceTask.cpp
-        ServiceTimer.cpp
-        SystemInfoHelper.cpp
-        SystemInformation.cpp
-        TaskManager.cpp
-        ConfigParser.cpp
-        ConfigParser.cpp
-        FootPrintException.h
+add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/sources")
+
+set(SOURCES_FILES sources/main.cpp
+        sources/AppQueue.cpp
+        sources/Common.cpp
+        sources/DataStore.cpp
+        sources/EcogesteKpi.cpp
+        sources/FootPrintService.cpp
+        sources/Message.cpp
+        sources/MessageData.cpp
+        sources/OleFileManager.cpp
+        sources/OleFileStore.cpp
+        sources/ParserObject.cpp
+        sources/PersistanceManager.cpp
+        sources/PersistentData.cpp
+        sources/ResourceLock.cpp
+        sources/Resources.cpp
+        sources/ServiceConfig.cpp
+        sources/ServiceInformationFactory.cpp
+        sources/ServiceLogger.cpp
+        sources/ServiceTask.cpp
+        sources/ServiceTimer.cpp
+        sources/SystemInfoHelper.cpp
+        sources/SystemInformation.cpp
+        sources/TaskManager.cpp
+        sources/ConfigParser.cpp
+        sources/ConfigParser.cpp
+)
+
+add_executable(FootPrintAgent ${SOURCES_FILES}
 )
 
 target_link_libraries(FootPrintAgent PRIVATE dxva2)

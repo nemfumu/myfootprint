@@ -2,7 +2,7 @@
 // Created by admin on 05/02/2024.
 //
 
-#include "Common.h"
+#include "../includes/Common.h"
 
 #include <windows.h>
 #include <minwindef.h>

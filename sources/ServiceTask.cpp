@@ -2,14 +2,14 @@
 // Created by admin on 07/02/2024.
 */
 
-#include "ServiceTask.h"
+#include "../includes/ServiceTask.h"
 
 #include <sstream>
 #include <iostream>
 #include <string>
 
-#include "SystemInfoHelper.h"
-#include "ServiceLogger.h"
+#include "../includes/SystemInfoHelper.h"
+#include "../includes/ServiceLogger.h"
 
 ServiceTask::ServiceTask(kpi::Code code, AppQueue* pMgrQueue)
 : m_code(code)

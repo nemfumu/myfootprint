@@ -2,7 +2,7 @@
 // Created by admin on 30/01/2024.
 //
 
-#include "SystemInfoHelper.h"
+#include "../includes/SystemInfoHelper.h"
 
 #include <minwindef.h>
 #include <processthreadsapi.h>
@@ -12,10 +12,10 @@
 #include <highlevelmonitorconfigurationapi.h>
 #include <algorithm>
 
-#include "SystemInformation.h"
-#include "Common.h"
-#include "ServiceInformationFactory.h"
-#include "ServiceLogger.h"
+#include "../includes/SystemInformation.h"
+#include "../includes/Common.h"
+#include "../includes/ServiceInformationFactory.h"
+#include "../includes/ServiceLogger.h"
 #include <random>
 #include <limits.h>
 #include <fstream>
